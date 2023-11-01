@@ -36,3 +36,7 @@ echo "Installation completed... You can start the gui with ./gui.sh --share --he
 # Deactivate the virtual environment
 echo "Deactivating venv..."
 deactivate
+
+#this fixes the "module not found" error
+source /workspace/kohya_ss/venv/bin/activate
+pip3 install scipy
