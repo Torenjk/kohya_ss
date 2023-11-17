@@ -73,7 +73,7 @@ def UI(**kwargs):
         htmlStr = f"""
         <html>
             <body>
-                <div class="ver-class">{release}</div>
+                <div class="ver-class"></div>
             </body>
         </html>
         """
