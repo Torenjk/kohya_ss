@@ -66,7 +66,7 @@ def UI(**kwargs):
             with gr.Tab('LoRA'):
                 _ = LoRATools(headless=headless)
         with gr.Tab('About'):
-            gr.Markdown(f'kohya_ss GUI release {release}')
+            gr.Markdown(f'kohya_ss GUI release')
             with gr.Tab('README'):
                 gr.Markdown(README)
 
